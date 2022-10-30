@@ -1,0 +1,92 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko virÅ¡utinio border ir h1 spalva:
+    #0974b3
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: News Cycle, sans-serif;
+    font-size: 16px;
+    background: hsl(0deg 0% 96%);
+    /* rgb(209, 209, 209); */
+}
+h1 {
+    color:  #0974b3;
+}
+
+main {
+    background: white;
+}
+article {
+    /* width: auto;
+    height: auto; */
+    margin: 20px;
+    display: inline-block;
+    border-top: 5px solid #0974b3;
+    background: white;
+    overflow: hidden;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+}
+.article1 {
+   width: 100%;
+   height: fit-content;
+  }
+
+.article1 img {
+    max-width: 150px;
+    width: 20%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  .article2 {
+    width: 45%;
+    padding-left: 30px;
+    overflow: hidden;
+    float: left;
+    
+  }
+  .article2 img {
+    min-width: 150px;
+    width: 20%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  .article3 {
+    width: 45%;
+    padding-left: 10px;
+    overflow: hidden;
+    display:inline-table;
+    float: right;
+    
+
+  }
+  .article3 img {
+    min-width: 150px;
+    width: 20%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .age {
+    padding-bottom: 10px;
+    margin-top: -10px;
+    color: #666;
+
+  }
+
+  
